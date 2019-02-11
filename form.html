@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="form.css">
+</head>
+<body>
+<div>
+<nav>
+<span> To The New </span>
+ <span> Home </span>
+ <span> Quick Help </span>
+</nav>
+<hr>
+</div>
+<div class="form_center">
+<div class="form_bug_report">
+<p> Bug Report </p>
+</div>
+<!-- Form Starts Here -->
+<div class="form_class">
+  <form>
+  <label class="formtext"> Title* </label> <br>
+  <input type="text" required /> <br>
+  <label class="formtext"> Description* </label> <br>
+  <input type="textarea" required><br>
+  <label class="formtext" > Operating System </label> <br>
+  <select class="aqua">
+ <option value="Windows">Windows</option>
+ <option value="Linux">Linux</option>
+ <option value="Kali">Kali</option>
+ <option value="ParrotOS">ParrotOS</option>
+</select> <br>
+<label class="formtext"> Product* </label> <br>
+<select class="aqua" required>
+<option value="Win_Server">Windows Server</option>
+<option value="Linux_Server">Linux Server</option>
+<option value="Kali_Server">Kali Server</option>
+<option value="ParrotOS_Server">ParrotOS Server</option>
+</select><br>
+<label class="formtext"> Version* </label> <br>
+<input type="text" required style="width:10%" /><br>
+<label> License </label> <br>
+<input type="radio" name=License value="Free"/> Free
+<input type="radio" name=License value="Business"/> Business
+<br>
+<label class="formtext"> Severity </label> <br>
+<select class="aqua" required >
+<option value="Low">Low</option>
+<option value="Medium">Medium</option>
+<option value="High">High</option>
+</select><br>
+<label class="formtext"> Attachments </label> <br>
+<input type="file" name="attachedfile" value="" required/>
+</form>
+<div>
+<div class="footer_send">
+  <input type="submit" name="Submit" value="Send">
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
